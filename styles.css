@@ -25,9 +25,9 @@ header {
     color: white;
     margin-left: 15px;
     text-decoration: none;
-}
+}s
 .logo a img {
-    height: 36px;
+    height: 56px;
 }
 nav ul {
     display: flex;
