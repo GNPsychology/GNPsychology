@@ -6,11 +6,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-body {
-    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -20,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2E3B4E;
+    background-color:#3c78d8 ;
     padding: 10px 20px;
     color: white;
 }
@@ -50,12 +45,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #009688; /* Color when hovering */
+    color: #b2cbe8; /* Color when hovering */
 }
 
 /* Call to action button */
 .cta-button .btn {
-    background-color: #009688;
+    background-color: #357fffcf;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
