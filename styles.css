@@ -23,13 +23,12 @@ header {
 .logo a {
     font-size: 1.8em;
     color: white;
-    margin-left: 10px;
+    margin-left: 15px;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo a img {
     height: 32px;
-    margin-left: 15px;
 }
 nav ul {
     display: flex;
