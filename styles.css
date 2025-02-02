@@ -28,7 +28,7 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo a img {
-    height: 32px;
+    height: 30px;
 }
 nav ul {
     display: flex;
