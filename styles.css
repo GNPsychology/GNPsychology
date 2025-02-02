@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#3c78d8 ;
+    background-color:#3c78d8e7 ;
     padding: 10px 20px;
     color: white;
 }
@@ -61,7 +61,7 @@ nav ul li a:hover {
 }
 
 .cta-button .btn:hover {
-    background-color: #00796b; /* Hover effect */
+    background-color: #b2cbe8; /* Hover effect */
 }
 
 /* Responsive Design */
@@ -94,13 +94,6 @@ h1, h2, h3 {
 a {
     text-decoration: none;
     color: #fff;
-}
-
-header {
-    background: #2E3B4E;
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
 }
 
 .hero-content h1 {
