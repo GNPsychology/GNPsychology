@@ -3,60 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        header h1 {
-            text-align: center;
-        }
-        .content {
-            padding: 20px;
-            text-align: center;
-        }
-        button {
-            padding: 10px 20px;
-            background-color: #35424a;
-            color: #ffffff;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    <title>GN Psychology</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Dynamic Website with JavaScript</h1>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Welcome to GN Psychology</h1>
+            <p>Supporting your mental health and well-being</p>
+            <a href="#services" class="btn">Explore Our Services</a>
         </div>
     </header>
 
-    <div class="container content">
-        <h2>Click the button to see a message</h2>
-        <button onclick="showMessage()">Click Me</button>
-        <p id="message"></p>
-    </div>
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="services-list">
+            <div class="service">
+                <h3>Individual Therapy</h3>
+                <p>One-on-one sessions tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>Couples Counseling</h3>
+                <p>Helping couples build stronger relationships.</p>
+            </div>
+            <div class="service">
+                <h3>Family Therapy</h3>
+                <p>Supporting families through challenging times.</p>
+            </div>
+        </div>
+    </section>
 
-    <script>
-        function showMessage() {
-            document.getElementById('message').innerText = 'Hello, this is a dynamic message!';
-        }
-    </script>
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>At GN Psychology, we are committed to providing personalized, evidence-based psychological support for individuals, couples, and families. Our goal is to help you improve your mental health and achieve your goals.</p>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 GN Psychology. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
