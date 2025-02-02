@@ -28,8 +28,8 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo a img {
-    min-width: 9px;
-    min-height: 28px;
+    height: 32px;
+    margin-left: 15px;
 }
 nav ul {
     display: flex;
