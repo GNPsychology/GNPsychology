@@ -20,13 +20,14 @@ header {
     color: white;
 }
 
-.logo a {
+.logo a span{
     font-size: 1.8em;
     color: white;
-    margin-left: 15px;
+    margin-top: 15px;
     text-decoration: none;
 }
 .logo a img {
+    margin-left: 15px;
     height: 56px;
 }
 nav ul {
