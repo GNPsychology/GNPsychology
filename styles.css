@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +12,13 @@ body {
 }
 
 /* Header styles */
-headerSlide{
-    background-color: white ;
-    color: #3c78d8e7;
+.hero {
+    display: flex;
+    justify-content: center;
+    color: Black;
+    align-items: center;
     text-align: center;
-    align-content: center;
-    padding: 4rem 0;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    padding:4rem 0;
 }
 
 header {
@@ -30,16 +30,18 @@ header {
     color: white;
 }
 
-.logo a span{
-    font-size: 1.8em;
+.logo a img {
+    height: 50px;
+    margin:0;
+}
+
+.logo a {
+    font-size: 1.6em;
     color: white;
     vertical-align: middle;
     text-decoration: none;
 }
-.logo a img {
-    margin-left: 15px;
-    height: 36px;
-}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -111,6 +113,7 @@ a {
 
 .hero-content h1 {
     font-size: 3em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 .hero-content p {
