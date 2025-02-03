@@ -37,8 +37,8 @@ header {
 
 .logo a {
     font-size: 1.6em;
-    color: white;
     padding: 0 .25rem;
+    color: white;
     vertical-align: middle;
     text-decoration: none;
 }
@@ -66,7 +66,7 @@ nav ul li a:hover {
 
 /* Call to action button */
 .cta-button .btn {
-    background-color: #357fffcf;
+    background-color: #3c78d8e7;
     color: white;
     padding: 5px 20px;
     border-radius: 5px;
@@ -102,11 +102,6 @@ nav ul li a:hover {
 }
 
 
-
-h1, h2, h3 {
-    color: #333;
-}
-
 a {
     text-decoration: none;
     color: #fff;
@@ -114,7 +109,6 @@ a {
 
 .hero-content h1 {
     font-size: 3em;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 .hero-content p {
@@ -123,16 +117,20 @@ a {
 }
 
 .btn {
-    background-color: #009688;
+    background-color: #3c78d8e7;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
+    display:block;
     font-weight: bold;
     transition: background-color 0.3s;
+    margin: 20px 0;
+    text-align:center;
 }
 
 .btn:hover {
-    background-color: #00796b;
+    background-color:#3c78d8a1;
+    font-size:1.2em;
 }
 
 .section {
@@ -141,6 +139,20 @@ a {
     background-color: #f4f4f4;
     text-align: center;
 }
+.sectionbanner {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.
+
+.sectionbanner h2 {
+    color: white;
+    text-align: center;
+}
+
 
 .services-list {
     display: flex;
@@ -198,4 +210,20 @@ footer {
 .social-links a {
     margin: 0 10px;
     color: white;
+}
+.container {
+    display: flex;
+    padding:2em 4em;
+}
+.box {
+    text-align: center;
+    padding:10px;
+    line-height:1.4;
+}
+.box img{
+    width:220px;
+}
+.box1 {
+    text-align:justify;
+    line-height:1.6;
 }
