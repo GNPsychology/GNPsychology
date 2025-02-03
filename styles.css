@@ -212,17 +212,17 @@ footer {
 }
 .container {
   display: flex;
-  padding:2em 4em;
+  padding:2em 10em;
   }
 .box {
-            text-align: center;
-            padding:10px;
-            line-height:1.4;
-            }
-         .box img{
-           width:220px;
-         }
-        .box1 {
-            text-align:justify;
-              line-height:1.6;
-        }
+    text-align: center;
+    padding:10px;
+    line-height:1.4;
+}
+.box img{
+    width:240px;
+}
+.box1 {
+    text-align:justify;
+    line-height:1.6;
+}
