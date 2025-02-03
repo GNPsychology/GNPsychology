@@ -213,6 +213,7 @@ footer {
 .container {
   display: flex;
   padding:2em 14em;
+  margin:0 10em;
   }
 .box {
     text-align: center;
