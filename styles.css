@@ -13,11 +13,12 @@ body {
 /* Header styles */
 headerSlide{
     background-color: white ;
-    color: black;
+    color: #3c78d8e7;
     text-align: center;
     align-content: center;
-    padding: 2rem 0;
-    font-size: 24px;
+    padding: 4rem 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -32,7 +33,7 @@ header {
 .logo a span{
     font-size: 1.8em;
     color: white;
-    margin-top: 5px;
+    vertical-align: middle;
     text-decoration: none;
 }
 .logo a img {
