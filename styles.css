@@ -211,18 +211,18 @@ footer {
     color: white;
 }
 .container {
-    display: flex;
-    padding:2em 4em;
-}
+  display: flex;
+  padding:2em 4em;
+  }
 .box {
-    text-align: center;
-    padding:10px;
-    line-height:1.4;
-}
-.box img{
-    width:40px;
-}
-.box1 {
-    text-align:justify;
-    line-height:1.6;
-}
+            text-align: center;
+            padding:10px;
+            line-height:1.4;
+            }
+         .box img{
+           width:220px;
+         }
+        .box1 {
+            text-align:justify;
+              line-height:1.6;
+        }
