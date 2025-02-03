@@ -38,6 +38,7 @@ header {
 .logo a {
     font-size: 1.6em;
     color: white;
+    padding: 0 .25rem;
     vertical-align: middle;
     text-decoration: none;
 }
