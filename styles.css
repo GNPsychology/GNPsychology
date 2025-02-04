@@ -80,29 +80,7 @@ nav ul li a:hover {
     background-color: #b2cbe8; /* Hover effect */
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    nav ul {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .cta-button {
-        margin-top: 10px;
-    }
-    .container {
-        flex-direction: column;  /* Stack divs vertically on small screens */
-    }
-}
 
 
 a {
@@ -244,4 +222,29 @@ footer {
 .box1 {
     text-align:justify;
     line-height:1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .cta-button {
+        margin-top: 10px;
+    }
+    .container {
+        flex-direction: column;  /* Stack divs vertically on small screens */
+        padding:0;
+    }
 }
