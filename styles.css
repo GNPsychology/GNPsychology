@@ -70,7 +70,7 @@ nav ul li a:hover {
 
 /* Call to action button */
 .cta-button .btn {
-    background-color: #3c78d8e7;
+    background-color: #3b74cfe7;
     color: white;
     padding: 5px 20px;
     border-radius: 5px;
@@ -81,7 +81,12 @@ nav ul li a:hover {
 }
 
 .cta-button .btn:hover {
-    background-color: #b2cbe8; /* Hover effect */
+    background-color: #71a1d7; /* Hover effect */
+    font-weight: none;
+    border-radius:8px;
+    padding: 10px 10px;
+    border-color: #0051ad;
+   transition: background-color 0.5s;
 }
 
 
@@ -114,12 +119,9 @@ a {
     text-align:center;
 }
 
-.btn:hover {
-    background-color:#3c78d8a1;
-    font-size:1.2em;
 }
 .btnh {
-    background-color: #3c78d8e7;
+    background-color: #1e68dfe7;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
@@ -129,8 +131,12 @@ a {
 }
 
 .btnh:hover {
-    background-color:#3c78d8a1;
-    font-size:1.2em;
+    background-color:#316dcda1;
+    font-weight: none;
+    border-radius:8px;
+   padding: 10px 10px;
+   border-color: #0051ad;
+   transition: background-color 0.5s;
 }
 
 .section {
