@@ -99,6 +99,9 @@ nav ul li a:hover {
     .cta-button {
         margin-top: 10px;
     }
+    .container {
+        flex-direction: column;  /* Stack divs vertically on small screens */
+    }
 }
 
 
@@ -228,6 +231,7 @@ footer {
   display: flex;
   padding:2em 14em;
   margin:0 10em;
+  flex-wrap: wrap;
   }
 .box {
     text-align: center;
