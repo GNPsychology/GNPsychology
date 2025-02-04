@@ -88,6 +88,14 @@ nav ul li a:hover {
     border-color: #0051ad;
    transition: background-color 0.5s;
 }
+.btn:hover {
+  background-color: #71a1d7f0; /* Hover effect */
+ font-weight: none;
+ border-radius:8px;
+ padding: 10px 10px;
+ border-color: #0051ad;
+transition: background-color 0.5s;
+}
 
 
 
