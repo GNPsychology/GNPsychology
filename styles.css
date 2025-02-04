@@ -368,3 +368,6 @@ body.sidebar-open {
 .bglightgrey{
     background-color: #dedede ;
 }
+.secbox{
+  padding:0em 12em;
+}
