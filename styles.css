@@ -256,6 +256,11 @@ footer {
         display: flex;
         flex-direction: column;
   }
+  .secbox{
+    display:flex ;
+    margin: 0;
+        padding:0;
+  }
     
 }
 
@@ -370,4 +375,5 @@ body.sidebar-open {
 }
 .secbox{
   padding:0em 12em;
+  margin:0 10px;
 }
