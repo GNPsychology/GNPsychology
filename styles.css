@@ -244,7 +244,7 @@ footer {
         margin-top: 10px;
     }
     .container {
-        flex-direction: column;  /* Stack divs vertically on small screens */
-        padding:0;
+        margin: auto;
+        padding:auto;
     }
 }
