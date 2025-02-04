@@ -365,3 +365,6 @@ body.sidebar-open {
     display: none; /* Sidebar remains hidden on larger screens */
   }
 }
+.bglightgrey{
+    background-color: #dedede ;
+}
