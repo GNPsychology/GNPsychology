@@ -460,7 +460,7 @@ overflow: hidden;
   transition: background-color 0.3s ease;
 }
 .footer-social img {
-   width: 20px;
+   width: 50px;
 }
 .footer-social a:hover {
   background-color: #444;
