@@ -335,7 +335,7 @@ margin: 0;
 }
 
 .sidebar ul li {
-margin: 15px 0;
+  margin: 2em 0;
 }
 
 .sidebar ul li a {
@@ -346,7 +346,7 @@ transition: background-color 0.3s ease;
 }
 
 .sidebar ul li a:hover {
-background-color: #3c78d8ff;
+background-color: rgba(22, 84, 185, 0.911);
 }
 
 /* Overlay style to detect click outside sidebar */
