@@ -459,8 +459,8 @@ overflow: hidden;
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
-footer-social a img {
-   width: 50px;
+.footer-social a img {
+   width: 20px;
 }
 .footer-social a:hover {
   background-color: #444;
