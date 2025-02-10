@@ -279,17 +279,17 @@ margin:0 10px;
     align-content:center;
   }
   .section {
-  padding: 5%;
-  margin: 0px;
-  background-color: #f4f4f4;
-  text-align: center;
+    padding: 5%;
+    margin: 0px;
+    background-color: #f4f4f4;
+    text-align: center;
   }
 
   .services-list {
-  margin: 0px 2em;
-  align-content:center;
-  flex-direction: column;
+    align-content:center;
+    flex-direction: column;
   }
+  
   .service {
     background-color: white;
     padding: 20px;
