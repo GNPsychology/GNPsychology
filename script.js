@@ -53,3 +53,5 @@ function closeSidebar() {
   overlay.style.display = 'none';
   body.classList.remove('sidebar-open');
 }
+
+

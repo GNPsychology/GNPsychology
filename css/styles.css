@@ -135,6 +135,9 @@ a {
   transition: background-color 0.3s;
   text-align:center;
 }
+.active {
+  background-color: #1e68dfe7;
+}
 
 .btnh:hover {
   background-color:#316dcda1;
