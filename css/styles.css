@@ -179,7 +179,7 @@ a {
   text-align: center;
   margin-bottom: 20px;
 }
-.service-item {
+.serviceitem {
   background-color: white;
   padding: 1.3em;
   border-radius: 8px;
@@ -306,7 +306,7 @@ margin:0 10px;
     width:80%;
     text-align: center;
   }
-  .service-item {
+  .serviceitem {
     background-color: white;
     padding: 20px;
     margin: 10px auto;
