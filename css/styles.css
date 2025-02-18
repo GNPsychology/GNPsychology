@@ -20,6 +20,9 @@ body {
   text-align: center;
   padding:4rem 0;
 }
+.active {
+  background-color: #007BFF; /* Blue background color for the active link */
+}
 
 header {
   display: flex;
@@ -134,9 +137,6 @@ a {
   font-weight: bold;
   transition: background-color 0.3s;
   text-align:center;
-}
-.active {
-  background-color: #1e68dfe7;
 }
 
 .btnh:hover {
