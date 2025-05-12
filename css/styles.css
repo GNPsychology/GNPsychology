@@ -250,6 +250,18 @@ padding:8px 0;
 .box img{
   width:240px;
 }
+
+.tile {
+  text-align: center;
+  padding: 1em;
+  line-height:1.6;
+}
+.tile{
+padding:4px 0;  
+}
+.tile img{
+  width:40px;
+}
 .box1 {
   text-align:justify;
   line-height:1.6;
