@@ -262,6 +262,17 @@ padding:4px 0;
 .tile img{
   width:240px;
 }
+.tile1 {
+  text-align: center;
+  padding: 1em;
+  line-height:1.6;
+}
+.tile1{
+padding:4px 0;  
+}
+.tile1 img{
+  width:80px;
+}
 .box1 {
   text-align:justify;
   line-height:1.6;
