@@ -1,4 +1,4 @@
-document.getElementById("contactForm").addEventListener("submit", function(e) {
+/**document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
     const name = document.getElementById("name").value;
@@ -12,7 +12,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
         document.getElementById("formMessage").textContent = "Please fill out all fields.";
     }
 });
-
+**/
 
 function toggleMenu() {
   const sidebar = document.getElementById('sidebarMenu');
