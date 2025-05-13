@@ -17,7 +17,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     mobile:mobile,
     message: message
     };
-    emailjs.send("service_046owpg", "YOUR_TEMPLATE_ID", templateParams)
+    emailjs.send("service_046owpg", "template_yhn3mng", templateParams)
     .then(function(response) {
       console.log("SUCCESS!", response);
       document.getElementById("formMessage").innerText = "Thank you for contacting us, we will get back to you soon!";
