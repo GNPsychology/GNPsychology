@@ -122,6 +122,38 @@
         </form>
         <p id="formMessage"></p>
         <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init("rwlCu_0d2ffxX1cdk");
+            })();
+            document.getElementById("contactForm").addEventListener("submit", function(event) {
+                event.preventDefault();
+                const name = document.getElementById("name").value;
+                const email = document.getElementById("email").value;
+                const mobile=document.getElementById("mobile").value
+                const message = document.getElementById("message").value;
+                var now = new Date();
+                const datetime = now.toLocaleString();
+                const templateParams = {
+                    name: name,
+                    email: email,
+                    time: datetime,
+                    mobile:mobile,
+                    message: message
+                };
+                emailjs.send("service_046owpg", "template_yhn3mng", templateParams)
+                .then(function(response) {
+                    //console.log("SUCCESS!", response);
+                    document.getElementById("formMessage").innerText = "Thank you for contacting us, we will get back to you soon!";
+                    document.getElementById("formMessage").style.color = "green";
+                    document.getElementById("contactForm").reset(); // Clear the form
+                    }, function(error) {
+                   // console.log("FAILED...", error);
+                    document.getElementById("formMessage").innerText = "Oops! Something went wrong.";
+                    document.getElementById("formMessage").style.color = "red";
+                });
+            });
+        </script>
     </section>
 
     <!-- Footer Section and footer will be added here -->
