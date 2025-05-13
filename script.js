@@ -7,13 +7,14 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
-    const mobile=document.getElementById("mobile")
+    const mobile=document.getElementById("mobile").value
     const message = document.getElementById("message").value;
-    const time=Date.now();
+    var now = new Date();
+    const datetime = now.toLocaleString();
     const templateParams = {
     name: name,
     email: email,
-    time:time,
+    time: datetime,
     mobile:mobile,
     message: message
     };
