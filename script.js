@@ -2,7 +2,7 @@ function toggleMenu() {
   const sidebar = document.getElementById('sidebarMenu');
   const overlay = document.getElementById('overlay');
   const body = document.body;
-
+  sidebar.classList.toggle("open");
   // Toggle sidebar visibility and prevent body scrolling
   sidebar.classList.toggle('active');
   overlay.style.display = sidebar.classList.contains('active') ? 'block' : 'none';
