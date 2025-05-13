@@ -9,6 +9,15 @@ function toggleMenu() {
   body.classList.toggle('sidebar-open', sidebar.classList.contains('active'));
 }
 
+document.querySelectorAll('.submenu-toggle').forEach(function (toggle) {
+  toggle.addEventListener('click', function (e) {
+    e.preventDefault();
+    const parent = this.parentElement;
+    parent.classList.toggle('open');
+  });
+});
+
+
 // Close sidebar when clicking outside of the sidebar or the menu button
 document.getElementById('overlay').addEventListener('click', closeSidebar);
 

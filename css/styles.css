@@ -100,7 +100,23 @@ border-color: #0051ad;
 transition: background-color 0.5s;
 }
 
+.submenu {
+  display: none;
+  position: absolute;
+  background-color:#71a1d7f0;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  min-width: 160px;
+}
 
+.submenu li a {
+  white-space: nowrap;
+}
+
+.has-submenu.open .submenu {
+  display: block;
+}
 
 
 a {
@@ -340,7 +356,9 @@ margin:0 10px;
     width:80%;
     align-content: center;
   }
-
+  .submenu {
+    position: static;
+  }
   
 }
 
