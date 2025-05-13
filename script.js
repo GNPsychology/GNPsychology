@@ -8,16 +8,6 @@ function toggleMenu() {
   overlay.style.display = sidebar.classList.contains('active') ? 'block' : 'none';
   body.classList.toggle('sidebar-open', sidebar.classList.contains('active'));
 }
-
-document.querySelectorAll('.submenu-toggle').forEach(function (toggle) {
-  toggle.addEventListener('click', function (e) {
-    e.preventDefault();
-    const parent = this.parentElement;
-    parent.classList.toggle('open');
-  });
-});
-
-
 // Close sidebar when clicking outside of the sidebar or the menu button
 document.getElementById('overlay').addEventListener('click', closeSidebar);
 
@@ -46,5 +36,29 @@ menuLinks.forEach(link => {
         // Add the 'active' class to the link that corresponds to the current page
         link.classList.add('active');
     }
+});
+
+function toggleMenu() {
+    const sidebar = document.getElementById("sidebarMenu");
+    sidebar.classList.toggle("open");
+}
+
+// Submenu toggle for mobile devices
+document.addEventListener("DOMContentLoaded", function () {
+    const toggles = document.querySelectorAll('.submenu-toggle');
+
+    toggles.forEach(toggle => {
+        toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            const parent = this.closest('.has-submenu');
+            const submenu = parent.querySelector('.submenu');
+
+            submenu.classList.toggle('open');
+
+            // Update ARIA
+            const isOpen = submenu.classList.contains('open');
+            this.setAttribute('aria-expanded', isOpen);
+        });
+    });
 });
 

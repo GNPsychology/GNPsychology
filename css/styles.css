@@ -100,24 +100,34 @@ border-color: #0051ad;
 transition: background-color 0.5s;
 }
 
+
+/* Submenu */
 .submenu {
-  display: none;
-  position: absolute;
-  background-color:#71a1d7f0;
-  top: 100%;
-  left: 0;
-  list-style: none;
-  min-width: 160px;
+    display: none;
+    position: absolute;
+    background: #0077aa;
+    top: 100%;
+    left: 0;
+    padding: 10px 0;
+    min-width: 150px;
 }
 
-.submenu li a {
-  white-space: nowrap;
+.submenu li {
+    display: block;
+    margin: 0;
 }
 
-.has-submenu.open .submenu {
-  display: block;
+.has-submenu:hover .submenu {
+    display: block;
 }
 
+.submenu-toggle {
+    cursor: pointer;
+}
+
+.submenu.open {
+    display: block !important;
+}
 
 a {
   text-decoration: none;
@@ -358,6 +368,7 @@ margin:0 10px;
   }
   .submenu {
     position: static;
+    background: #004466;
   }
   
 }
