@@ -38,11 +38,6 @@ menuLinks.forEach(link => {
     }
 });
 
-function toggleMenu() {
-    const sidebar = document.getElementById("sidebarMenu");
-    sidebar.classList.toggle("open");
-}
-
 // Submenu toggle for mobile devices
 document.addEventListener("DOMContentLoaded", function () {
     const toggles = document.querySelectorAll('.submenu-toggle');
