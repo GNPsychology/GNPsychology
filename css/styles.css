@@ -162,7 +162,7 @@ nav ul li:hover .submenu {
     display: block;
   }
 }
-////////////////////////////////
+/*//////////////////////////////*/
 
 
 
@@ -538,6 +538,9 @@ overflow: hidden;
 .sidebar {
   display: none; /* Sidebar remains hidden on larger screens */
 }
+  .menu-toggle.active + .nav {
+    display: block;
+  }
 }
 .bglightgrey{
   background-color: #dedede ;
