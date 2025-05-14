@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +44,17 @@ header {
   vertical-align: middle;
   text-decoration: none;
 }
+
+/* Logo and Header */
+
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: white;
+  background: none;
+  border: none;
+}
+
 .nav {
 display: flex;
 gap: 20px;
@@ -56,7 +66,8 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 15px;
+  position: relative;
+  margin: 0px 15px;
 }
 
 nav ul li a {
@@ -70,6 +81,90 @@ nav ul li a {
 nav ul li a:hover {
   color: #b2cbe8; /* Color when hovering */
 }
+
+
+
+
+/* Submenu styling */
+.submenu {
+    display: none;
+    position: absolute;
+    background: #3c78d8e7;
+    top: 150%;
+    left: -50%;
+    padding: 5px 0;
+    min-width: 150px;
+    color: #b2cbe8;
+    list-style-type: none;
+}
+
+.submenu li {
+    display: block;
+    margin: 0;
+}
+
+.submenu li a {
+  color: white;
+  padding: 10px 20px;
+  display: block;
+}
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu-toggle {
+    cursor: pointer;
+}
+
+.submenu.open {
+    display: block !important;
+}
+
+
+.submenu li a:hover {
+   color: #b2cbe8;
+}
+
+.submenu-toggle:after {
+  content: ' ▾';
+}
+
+.has-submenu[aria-expanded="true"] .submenu {
+  display: block;
+}
+
+.has-submenu[aria-expanded="true"] .submenu-toggle:after {
+  content: ' ▴';
+}
+
+/* Hover on Desktop to Show Submenu */
+nav ul li:hover .submenu {
+  display: block;
+}
+
+/* Sidebar Styles for Mobile */
+
+
+
+
+/* Mobile View Styles */
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: inline-block;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .menu-toggle.active + .nav {
+    display: block;
+  }
+}
+////////////////////////////////
+
+
 
 /* Call to action button */
 .cta-button .btn {
@@ -100,34 +195,6 @@ border-color: #0051ad;
 transition: background-color 0.5s;
 }
 
-
-/* Submenu */
-.submenu {
-    display: none;
-    position: absolute;
-    background: #0077aa;
-    top: 100%;
-    left: 0;
-    padding: 10px 0;
-    min-width: 150px;
-}
-
-.submenu li {
-    display: block;
-    margin: 0;
-}
-
-.has-submenu:hover .submenu {
-    display: block;
-}
-
-.submenu-toggle {
-    cursor: pointer;
-}
-
-.submenu.open {
-    display: block !important;
-}
 
 a {
   text-decoration: none;
@@ -315,14 +382,7 @@ margin:0 10px;
       text-align: center;
   }
 
-  nav ul {
-      flex-direction: column;
-      margin-top: 10px;
-  }
 
-  nav ul li {
-      margin: 10px 0;
-  }
 
   .cta-button {
       margin-top: 10px;
