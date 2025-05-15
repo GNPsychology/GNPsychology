@@ -193,8 +193,10 @@ nav ul li:hover .submenu {
 
 
 a {
-  	text-decoration: none;
-  	color: #fff;
+  	text-decoration: underline;
+  	color: #71a1d7f0;
+	word-wrap:break-word;
+  	transition: color 0.3s ease;
 }
 
 .hero-content h1 {
