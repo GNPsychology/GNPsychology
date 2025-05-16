@@ -71,8 +71,24 @@
     <!-- About Us Section -->
     <section class="section">
         <h2>About Us</h2>
-        <p>At GN Psychology, we are committed to providing personalized, evidence-based psychological support for individuals, couples, and families. Our goal is to help you improve your mental health and achieve your goals.</p>
-    </section>
+        <div id="map"></div>
+        <script>
+                function initMap() {
+                    const location = { lat: 40.7128, lng: -74.0060 }; // Example: New York City
+
+                    const map = new google.maps.Map(document.getElementById("map"), {zoom: 12,
+                    center: location,}); const marker = new google.maps.Marker({position: location,
+                    map: map,title: "   're Here!",
+                    });
+                }
+        </script>
+    <!-- Load the Google Maps API (replace YOUR_API_KEY with your real API key) -->
+        <script
+            async
+            defer
+            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+        </script>
+        </section>
 
     <!-- Contact Form Section -->
     <section id="contact" class="section">
