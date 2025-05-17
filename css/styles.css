@@ -247,7 +247,7 @@ a {
 .sectionbanner {
   	padding: 40px 20px;
   	margin: 20px 0;
-  	background-color: black;
+  	background-color: hsl(0, 0%, 43%);
   	color:white;
   	text-align: center;
 }
