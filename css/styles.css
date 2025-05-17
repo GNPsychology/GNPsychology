@@ -637,7 +637,8 @@ body.sidebar-open {
 }
 .map-container {
   max-width: 800px;
-  margin: 0 auto;
+  height: 400px;
+  margin: 20px auto;
   border: 2px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
