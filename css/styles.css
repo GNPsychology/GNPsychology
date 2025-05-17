@@ -168,7 +168,7 @@ nav ul li:hover .submenu {
   	color: white;
   	padding: 10px 20px;
   	border-radius: 5px;
-  	text-decoration: none;
+	text-decoration: none;
   	font-weight: bold;
   	font-size: 1em;
   	transition: background-color 0.3s ease;
