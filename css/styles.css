@@ -160,7 +160,9 @@ nav ul li:hover .submenu {
   	}
 }
 /*--------------*/
-
+a:-webkit-any-link {
+	text-decoration: none;
+}
 
 /* Call to action button */
 .cta-button .btn {
